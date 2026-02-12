@@ -103,3 +103,15 @@ body {
 }
 
 }
+
+/* Selección global */
+::selection {
+  background: #ACD3BC;
+  color: #070707; /* texto oscuro para buen contraste */
+}
+
+/* Para compatibilidad con Firefox */
+::-moz-selection {
+  background: #ACD3BC;
+  color: #070707;
+}
