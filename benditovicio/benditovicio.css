@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+
+  background: url("img/bg-desktop.webp") center/cover no-repeat;
+}
+
+/* fondo mobile */
+@media (max-width: 768px) {
+  .page {
+    min-height: 100svh;
+    background: url("img/bg-mobile.webp") center/cover no-repeat;
+  }
+}
+
+/* redes */
+.social {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  gap: 14px;
+}
+
+.social img {
+  width: 5vh;
+}
+
+/* contenido central */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+  margin-top: 6vh;
+}
+
+/* título canción */
+.song-title {
+  mix-blend-mode: multiply;
+}
+
+.desktop {
+  display: block;
+  width: 38vw;
+}
+
+.mobile {
+  display: none;
+}
+
+
+
+/* video */
+.video-container {
+  position: relative;
+  width: 38vw;
+  aspect-ratio: 4/3;
+  
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  aspect-ratio: 16.15/9;
+  border-radius: 10px;
+}
+
+/* botón audio */
+.audio-btn {
+  position: absolute;
+  bottom: 0.5vw;
+  left: 0.5vw;
+
+  width: 3vw;
+  height: 3vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.audio-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.audio-btn:hover {
+  transform: scale(1.08);
+}
+
+.audio-btn.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+/* plataformas */
+
+.platforms-compu{
+ margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+
+  background: rgba(246,248,245,0.2);
+  padding: 14px 30px 8px 30px;
+  border-radius: 999px;
+  border: solid rgba(246,248,245,0.8) 1px;
+
+  width: auto;
+
+}
+
+.platforms-compu img {
+  height: 3.2vh;
+}
+
+.platforms {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vh;
+}
+
+/* fila */
+.platform-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+
+  background: rgba(246,248,245,0.2);
+  padding: 14px 30px 8px 30px;
+  border-radius: 999px;
+  border: solid rgba(246,248,245,0.8) 1px;
+
+  width: 85vw;
+}
+
+/* desktop: una sola fila */
+@media (min-width: 769px) {
+  .platforms {
+    display: none;
+  }
+}
+
+.platforms img {
+  height: 3.2vh;
+}
+
+@media (max-width: 768px) {
+  .platforms {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .platforms-compu {
+  display: none;
+}
+
+
+.audio-btn {
+  bottom: 1.5vw;
+  left: 1.5vw;
+
+  width: 7vw;
+  height: 7vw;
+}
+}
+
+/* logo inferior */
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  bottom: 1vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer-logo img {
+  width: 95vw;
+  height: auto;
+  opacity: 0.7;
+  max-height: 20vh;
+}
+
+
+@media (max-width: 768px) {
+  .desktop { display: none; }
+  .mobile {
+    display: block;
+    width: 80vw;
+  }
+
+  /* video */
+.video-container {
+  width: 80vw;
+  
+}
+
+.content {
+  margin-top: 10svh;
+  gap: 3vh;
+}
+
+.footer-logo {
+  width: auto;
+}
+
+/* logo inferior */
+.footer-logo img {
+  padding-top: 5vh;
+  width: 90vw;
+  height: auto;
+  opacity: 1;
+}
+}
+
+
+
+/* =========================
+   HOVER BOTONES PLATAFORMAS
+   ========================= */
+
+.platforms-compu a,
+.platform-row a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.platforms-compu a:hover,
+.platform-row a:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+/* =========================
+   HOVER CONTENEDORES GLASS
+   ========================= */
+
+.platforms-compu:hover,
+.platform-row:hover {
+  background: rgba(246,248,245,0.28);
+  border: solid rgba(246,248,245,1) 1px;
+}
+
+
+.social a {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social a:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
