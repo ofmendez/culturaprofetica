@@ -1,71 +1,706 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- ========== METADATOS BÁSICOS ========== -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Cultura Profética | Sitio Oficial</title>
-  <meta name="description" content="Sitio oficial de Cultura Profética. Muy pronto nueva música, conciertos y contenido exclusivo de la banda.">
-  <meta name="author" content="Cultura Profética">
-  <meta name="theme-color" content="#070707">
 
-  <!-- ========== INDEXACIÓN ========== -->
-  <meta name="robots" content="index, follow">
+  <meta
+    name="description"
+    content="Sitio oficial de Cultura Profética. Escucha su música, mira videos oficiales y descubre las últimas novedades de una de las bandas más influyentes de la música latinoamericana."
+  />
 
-  <!-- ========== OPEN GRAPH (Facebook / WhatsApp / LinkedIn) ========== -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Cultura Profética | Sitio Oficial">
-  <meta property="og:description" content="Muy pronto nueva música, conciertos y contenido exclusivo de Cultura Profética.">
-  <meta property="og:image" content="https://culturaprofetica.com/img/share.jpg">
-  <meta property="og:url" content="https://culturaprofetica.com/">
-  <meta property="og:site_name" content="Cultura Profética">
+  <meta
+    name="keywords"
+    content="Cultura Profética, Cultura Profetica, reggae latino, música latina, banda puertorriqueña, reggae en español, música oficial"
+  />
 
-  <!-- ========== TWITTER / X ========== -->
+  <meta name="author" content="Cultura Profética" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.culturaprofetica.com/" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Cultura Profética" />
+  <meta property="og:title" content="Cultura Profética | Sitio Oficial" />
+  <meta
+    property="og:description"
+    content="Escucha la música, mira videos oficiales y descubre el universo de Cultura Profética."
+  />
+  <meta property="og:url" content="https://www.culturaprofetica.com/" />
+  <meta property="og:image" content="https://www.culturaprofetica.com/assets/share.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cultura Profética | Sitio Oficial">
-  <meta name="twitter:description" content="Muy pronto nueva música y contenido exclusivo de Cultura Profética.">
-  <meta name="twitter:image" content="https://culturaprofetica.com/img/share.jpg">
+  <meta
+    name="twitter:description"
+    content="Escucha la música, mira videos oficiales y descubre el universo de Cultura Profética."
+  >
+  <meta name="twitter:image" content="https://www.culturaprofetica.com/assets/share.jpg">
 
-  <!-- ========== FAVICON (OPCIONAL) ========== -->
-  <link rel="icon" href="/img/favicon-dark.png" type="image/png">
-
-  <!-- ========== GOOGLE FONTS ========== -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <!-- ========== CSS ========== -->
-  <link rel="stylesheet" href="css/coming-soon.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"MusicGroup",
+    "name":"Cultura Profética",
+    "url":"https://www.culturaprofetica.com/",
+    "logo":"https://www.culturaprofetica.com/assets/share.jpg",
+    "sameAs":[
+      "https://www.youtube.com/user/cproficial",
+      "https://www.facebook.com/culturaprofetica",
+      "https://www.instagram.com/culturaprofetica_oficial",
+      "https://x.com/culturaprofetic"
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1CBPPPRXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1CBPPPRXW');
+</script>
+
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('D67KK0BC77U2145QI960');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2841758222827543');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2841758222827543&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
 
-  <main class="page">
-    <h1 class="title">Coming soon.</h1>
+  <div class="site-loader" id="siteLoader">
+  <div class="loader-inner">
+    <img src="assets/logo-footer.svg" alt="Cultura Profética" class="loader-logo">
 
-   <div class="social">
-  <a href="https://www.facebook.com/culturaprofetica/">
-    <img src="img/coming-soon/fb.svg" alt="Facebook">
-  </a>
-
-  <a href="https://www.instagram.com/culturaprofetica_oficial/">
-    <img src="img/coming-soon/ig.svg" alt="Instagram">
-  </a>
-
-  <a href="https://x.com/culturaprofetic/">
-    <img src="img/coming-soon/x.svg" alt="X">
-  </a>
-
-  <a href="https://www.youtube.com/user/cproficial">
-    <img src="img/coming-soon/yt.svg" alt="YouTube">
-  </a>
+    <div class="loader-line">
+      <span></span>
+    </div>
+  </div>
 </div>
 
-  </main>
+  <section class="hero-liquid">
+    <canvas id="liquidCanvas"></canvas>
 
-  <script src="../js/coming-soon.js"></script>
+    <header class="site-header">
+  <a href="https://www.culturaprofetica.com/" class="site-logo" aria-label="Cultura Profética">
+    <img src="assets/logo.svg" alt="Cultura Profética">
+  </a>
 
+  <nav class="site-nav">
+    <!--<a href="#musica">MÚSICA</a>
+    <a href="#videos">VIDEOS</a>
+    <a href="#merch">MERCH</a>-->
+  </nav>
+
+  <div class="site-socials">
+    <a href="https://www.youtube.com/user/cproficial" target="_blank"><img src="assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.facebook.com/culturaprofetica/?locale=es_LA" target="_blank"><img src="assets/facebook.svg" alt="Facebook"></a>
+    <a href="https://www.instagram.com/culturaprofetica_oficial/?hl=es" target="_blank"><img src="assets/instagram.svg" alt="Instagram"></a>
+    <!--<a href="https://www.tiktok.com/@culturaprofeticaoficial" target="_blank"><img src="assets/tiktok.svg" alt="TikTok"></a>-->
+    <a href="https://x.com/culturaprofetic?lang=es" target="_blank"><img src="assets/x.svg" alt="X"></a>
+  </div>
+</header>
+
+
+
+    <div class="platform-links">
+  <a href="https://open.spotify.com/album/3vdljVkOeuLzEXbUHvPp1u?si=zkTtWDAXSMiW5AbZHyVp5A" target="_blank">YOUTUBE</a>
+  <span>•</span>
+
+  <a href="https://open.spotify.com/album/3vdljVkOeuLzEXbUHvPp1u" target="_blank">SPOTIFY</a>
+  <span>•</span>
+
+  <a href="https://music.apple.com/us/album/en-bucle/6778136929" target="_blank">APPLE MUSIC</a>
+  <span>•</span>
+
+  <a href="https://music.amazon.com/albums/B0H4HY5SD7?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_07LegOMpgYUPxpqNZANcUlnhY" target="_blank">AMAZON MUSIC</a>
+</div>
+
+  </section>
+
+  <section class="videos-scroll-section" id="musica">
+  <div class="videos-sticky">
+    <div class="videos-horizontal" id="videosHorizontal">
+
+    
+
+  <!-- 01 -->
+  <article class="video-card" data-video="IAhVESdwvIU">
+    <button class="video-thumb" aria-label="Ver video DÉJAME ENTRAR">
+      <video
+        muted
+        loop
+        autoplay
+        playsinline
+        preload="metadata">
+        <source src="videos/dejame-entrar.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">DÉJAME ENTRAR</h3>
+
+    <div class="song-links">
+  <a href="https://youtu.be/IAhVESdwvIU?si=PE1mpIBwS6wGBzCy" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/7A0W5d5IsrtpMIbVRshy7b?si=ed0321f59b834ff2" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/d%C3%A9jame-entrar/6778136933" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 02 -->
+  <article class="video-card" data-video="DxeFfsy7R5E">
+    <button class="video-thumb" aria-label="Ver video">
+      <video
+        muted
+        loop
+        autoplay
+        playsinline
+        preload="metadata">
+        <source src="videos/en-bucle.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">EN BUCLE</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=DxeFfsy7R5E&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=3" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/6Fclh8eoItr2T0QulGtZyO?si=664ffce311794c39" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/en-bucle/6778137208" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 03 -->
+  <article class="video-card" data-video="qcO1j3NZcUk">
+    <button class="video-thumb" aria-label="Ver video">
+      <video
+        muted
+        loop
+        autoplay
+        playsinline
+        preload="metadata">
+        <source src="videos/camanance.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">CAMANANCE</h3>
+
+   <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=qcO1j3NZcUk&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=4" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/1lzGMdapyGsGfSbs0a4wpx?si=6e4f5c98c7864f38" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/camanance/6778137211" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 04 -->
+  <article class="video-card" data-video="8qS9MsJoFbE">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/bruna.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">BRUNA</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=8qS9MsJoFbE&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=5" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/57Hf5X5PUakkYnJjIEletG?si=8eca5ec4918e4d2b" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/bruna/6778137214" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 05 -->
+  <article class="video-card" data-video="UhVl9PsOqvU">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/bendito-vicio.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">BENDITO VICIO</h3>
+
+   <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=UhVl9PsOqvU" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/5vSoUAYqfO8n77j2kTW3Ev?si=52344c0734144fa8" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/bendito-vicio/6778137228" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 06 -->
+  <article class="video-card" data-video="kuWHCTBGjvs">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/hacer-volar-la-casa.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">HACER VOLAR LA CASA</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=kuWHCTBGjvs&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=8" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/2kjQNYDcxL5fA3S2tEzygu?si=0106fa2ad23e42dd" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/hacer-volar-la-casa/6778137229" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 07 -->
+  <article class="video-card" data-video="xvE7I7C47mk">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/flaca.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">FLACA</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=xvE7I7C47mk&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=10" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/12QOz99BmQf6niecivifM7?si=fc658539de5b432c" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/flaca/6778137231" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 08 -->
+  <article class="video-card" data-video="LCb_W8dM2fs">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/malena.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">MALENA</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=LCb_W8dM2fs&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=11" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/5U5wj5UE8jYGrogSVSw5bT?si=3fd4ad4c683f40cc" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/malena/6778137536" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 09 -->
+  <article class="video-card" data-video="VbqaKFjsgCM">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/lento.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">LENTO</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=VbqaKFjsgCM&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=12" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/3DIwOiHhkuDYwpeeAlWpFQ?si=260dc7c5c51b441f" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/lento/6778137539" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 10 -->
+  <article class="video-card" data-video="019RCWvbY1A">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/dame-luz.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">DAME LUZ</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=019RCWvbY1A&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=13" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/47HPMESEcEeuQt560rPofA?si=290fdf4289cf424f" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/dame-luz/6778137548" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 11 -->
+  <article class="video-card" data-video="Ay7cRcEYH28">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/malherido.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">MALHERIDO</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=Ay7cRcEYH28&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=14" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/1yFC4LX61Ur3Lw8peefrIO?si=32345c73884d470c" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/malherido/6778137556" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 12 -->
+  <article class="video-card" data-video="LZf9AW__e7Y">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/hechicera.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">HECHICERA</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=LZf9AW__e7Y&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=15" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/7uEOEuPunARR60RHNCmEi9?si=08c67ca3017b40b6" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/hechicera/6778137562" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 13 -->
+  <article class="video-card" data-video="TXso5Cc-obs">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/del-mundo.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">DEL MUNDO</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=TXso5Cc-obs&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=17" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/6HkE6muPomD0Q0szvkb3dp?si=32804240049748a2" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/del-mundo/6778137808" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+  <!-- 14 -->
+  <article class="video-card" data-video="XRoxbWiKd3g">
+    <button class="video-thumb" aria-label="Ver video">
+      <video muted loop autoplay playsinline preload="metadata">
+        <source src="videos/yo-volvere.mp4" type="video/mp4">
+      </video>
+    </button>
+
+    <h3 class="video-title">YO VOLVERÉ</h3>
+
+    <div class="song-links">
+  <a href="https://www.youtube.com/watch?v=XRoxbWiKd3g&list=PLL3jyPW59qvBfgjvIn3GmlOD3mJGYXhya&index=18" target="_blank" aria-label="YouTube">
+    <span class="song-link-text">YOUTUBE</span>
+    <img class="song-link-icon" src="assets/youtube.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://open.spotify.com/track/3mMOWjc9Skcs2WGw5bvp1O?si=cc9fa0424a094e50" target="_blank" aria-label="Spotify">
+    <span class="song-link-text">SPOTIFY</span>
+    <img class="song-link-icon" src="assets/spotify.svg" alt="">
+  </a>
+
+  <span class="song-separator">•</span>
+
+  <a href="https://music.apple.com/us/song/yo-volvere/6778137812" target="_blank" aria-label="Apple Music">
+    <span class="song-link-text">APPLE MUSIC</span>
+    <img class="song-link-icon" src="assets/apple-music.svg" alt="">
+  </a>
+</div>
+  </article>
+
+
+
+    </div>
+
+<div class="videos-more-wrap">
+  <button class="videos-more-btn" type="button" id="videosMoreBtn">
+    VER MÁS
+  </button>
+</div>
+
+  </div>
+</section>
+
+<div class="video-modal" id="videoModal">
+  <div class="video-modal-backdrop"></div>
+
+  <div class="video-modal-content">
+    <button class="video-modal-close" aria-label="Cerrar video">×</button>
+
+    <div class="video-frame-wrap">
+      <iframe
+        id="youtubeFrame"
+        src=""
+        title="YouTube video player"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+  <div class="footer-logo">
+    <img src="assets/logo-footer.svg" alt="Cultura Profética">
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 RIMAS ENTERTAINMENT</p>
+
+    <div class="footer-right">
+      <div class="footer-socials">
+        <a href="https://www.youtube.com/user/cproficial" target="_blank"><img src="assets/youtube-n.svg" alt="YouTube"></a>
+        <a href="https://www.facebook.com/culturaprofetica/?locale=es_LA" target="_blank"><img src="assets/facebook-n.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/culturaprofetica_oficial/?hl=es" target="_blank"><img src="assets/instagram-n.svg" alt="Instagram"></a>
+        <a href="https://x.com/culturaprofetic?lang=es" target="_blank"><img src="assets/x-n.svg" alt="X"></a>
+      </div>
+
+      <a class="footer-privacy" href="https://rimas.trusthub.com/privacy" target="_blank">
+        PRIVACY POLICY
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+  <script type="module" src="js/hero-liquid.js"></script>
+<script type="module" src="js/videos.js"></script>
 </body>
 </html>
