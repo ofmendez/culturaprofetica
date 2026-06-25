@@ -555,6 +555,104 @@ body {
 
 
 /* =====================================================
+   SUBSCRIBE
+===================================================== */
+
+
+/* Barra superior */
+.footer-subscribe{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    padding-bottom:22px;
+    margin-bottom:40px;
+    border-bottom:1px solid #000;
+}
+
+.footer-subscribe p{
+    margin:0;
+    font-size:.8rem;
+    font-weight:900;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+}
+
+.subscribe-btn{
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  height: 44px;
+  padding: 0 26px 0 32px;
+
+  border: 1px solid #000;
+  color: #fff;
+  background: transparent;
+
+  font-size: .8rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: color .35s ease;
+}
+
+.subscribe-btn::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background: #000;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .35s cubic-bezier(.76, 0, .24, 1);
+}
+
+.subscribe-btn:hover{
+  color: #000;
+}
+
+.subscribe-btn:hover::before{
+  transform: scaleX(0);
+}
+
+.subscribe-btn span,
+.subscribe-btn img{
+  position: relative;
+  z-index: 1;
+}
+
+.subscribe-btn img{
+  width: 16px;
+  height: 16px;
+  display: block;
+  object-fit: contain;
+  transition: transform .35s cubic-bezier(.76, 0, .24, 1), filter .35s ease;
+}
+
+/* si tu SVG es negro originalmente */
+.subscribe-btn img{
+  filter: invert(0);
+}
+
+/* en hover vuelve a negro */
+.subscribe-btn:hover img{
+  transform: translateX(5px);
+  filter: invert(1);
+}
+
+
+
+/* =====================================================
    RESPONSIVE
 ===================================================== */
 
@@ -615,4 +713,16 @@ body {
     font-size: 6vw;
     line-height: 1;
   }
+
+   .footer-subscribe{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .subscribe-btn{
+        align-self:flex-end;
+    }
+
 }
+
+
