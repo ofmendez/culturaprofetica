@@ -144,9 +144,9 @@ src="https://www.facebook.com/tr?id=2841758222827543&ev=PageView&noscript=1"
   </a>
 
   <nav class="site-nav">
-    <!--<a href="#musica">MÚSICA</a>
-    <a href="#videos">VIDEOS</a>
-    <a href="#merch">MERCH</a>-->
+    <a class="site-nav-oculto" href="https://culturaprofetica.com/">HOME</a>
+    <a class="site-nav-oculto" href="https://culturaprofetica.com/#musica">MÚSICA</a>
+    <a class="site-nav-oculto" href="https://culturaprofetica.com/tour">TOUR</a>
   </nav>
 
   <div class="site-socials">
@@ -715,6 +715,41 @@ src="https://www.facebook.com/tr?id=2841758222827543&ev=PageView&noscript=1"
 
 </footer>
 
+<a href="https://culturaprofetica.com/tour" class="mobile-tour-btn" aria-label="Ver fechas del tour">
+  <img src="assets/boton-tour.svg" alt="Tour">
+</a>
+
+<script>
+  const mobileTourBtn = document.querySelector(".mobile-tour-btn");
+  const footer = document.querySelector(".site-footer");
+
+  function updateTourButtonPosition() {
+    if (!mobileTourBtn || !footer) return;
+
+    if (window.innerWidth > 768) {
+      mobileTourBtn.classList.remove("is-docked");
+      mobileTourBtn.style.top = "";
+      return;
+    }
+
+    const margin = window.innerWidth * 0.03;
+    const btnHeight = mobileTourBtn.offsetHeight;
+    const footerTop = footer.getBoundingClientRect().top;
+    const fixedTop = window.innerHeight - btnHeight - margin;
+
+    if (footerTop <= fixedTop + btnHeight + margin) {
+      mobileTourBtn.classList.add("is-docked");
+      mobileTourBtn.style.top = `${footer.offsetTop - btnHeight - margin}px`;
+    } else {
+      mobileTourBtn.classList.remove("is-docked");
+      mobileTourBtn.style.top = "";
+    }
+  }
+
+  window.addEventListener("scroll", updateTourButtonPosition);
+  window.addEventListener("resize", updateTourButtonPosition);
+  window.addEventListener("load", updateTourButtonPosition);
+</script>
 
   <script type="module" src="js/hero-liquid.js"></script>
 <script type="module" src="js/videos.js"></script>

@@ -663,8 +663,13 @@ body {
 }
 
 @media (max-width: 900px) {
+
+  .site-nav-oculto{
+    display:none;
+  }
+
   .videos-scroll-section {
-    padding: 48px 16px 64px;
+    padding: 48px 16px 104px;
   }
 
   .videos-horizontal {
@@ -725,4 +730,94 @@ body {
 
 }
 
+/* =====================================================
+   BOTON TOUR
+===================================================== */
 
+
+.mobile-tour-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-tour-btn {
+    position: fixed;
+    left: 50%;
+    bottom: 3.5vw;
+    transform: translateX(-50%);
+    z-index: 90;
+
+    display: block;
+    width: clamp(72px, 50vw, 228px);
+
+    animation: tourBtnPulse 2.4s ease-in-out infinite;
+    filter:
+    drop-shadow(0 8px 18px rgba(0,0,0,.45))
+    drop-shadow(0 0 14px rgba(255,255,255,.12));
+
+  isolation: isolate;
+  }
+
+  .mobile-tour-btn::before{
+  content:"";
+  position:absolute;
+  inset:-12px;
+  z-index:-1;
+
+  border-radius:999px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255,255,255,.18) 0%,
+      rgba(255,255,255,.08) 45%,
+      transparent 75%
+    );
+
+  filter: blur(10px);
+
+  animation: tourGlow 2.8s ease-in-out infinite;
+}
+
+  .mobile-tour-btn img {
+    width: 100%;
+    display: block;
+  }
+
+  .mobile-tour-btn:active {
+    transform: translateX(-50%) scale(.95);
+  }
+
+
+   .mobile-tour-btn.is-docked {
+    position: absolute;
+    bottom: auto;
+  }
+
+}
+
+@keyframes tourBtnPulse {
+
+  0%,100%{
+    transform:translateX(-50%) translateY(0) scale(1);
+  }
+
+  50%{
+    transform:translateX(-50%) translateY(-5px) scale(1.03);
+  }
+
+}
+
+@keyframes tourGlow{
+
+  0%,100%{
+    opacity:.45;
+    transform:scale(.96);
+  }
+
+  50%{
+    opacity:.9;
+    transform:scale(1.08);
+  }
+
+}
