@@ -1,5 +1,13 @@
 export const tourDates = [
  
+  {
+    date: "2026-07-31",
+    displayDate: "31 JUL",
+    city: "MADRID, ES",
+    venue: "NOCHES DE BOTÁNICO",
+    status: "newBuy",
+    url: "https://en.nochesdelbotanico.com/conciertos/cultura-profetica-cantamarta"
+  },
     {
     date: "2026-09-12",
     displayDate: "12 SEP",
