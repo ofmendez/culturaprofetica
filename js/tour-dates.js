@@ -44,7 +44,7 @@ export const tourDates = [
     date: "2026-09-26",
     displayDate: "26 SEP",
     city: "TIJUANA, MX",
-    venue: "ESTADIO CALIENTE",
+    venue: "ESTADIO CALIENTE ",
     status: "newBuy",
     url: "https://instatickets.mx/event/PHETRGSCGRZSMJ"
   },
