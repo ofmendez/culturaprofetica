@@ -44,9 +44,9 @@ export const tourDates = [
     date: "2026-09-26",
     displayDate: "26 SEP",
     city: "TIJUANA, MX",
-    venue: "EL FORO",
+    venue: "ESTADIO CALIENTE",
     status: "newBuy",
-    url: "https://arema.mx/e/20398"
+    url: "https://instatickets.mx/event/PHETRGSCGRZSMJ"
   },
   {
     date: "2026-10-01",
