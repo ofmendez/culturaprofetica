@@ -80,21 +80,21 @@ export const tourDates = [
     status: "newBuy",
     url: "https://teleticket.com.pe/cultura-profetica-lima-2026"
   },
-  {
+ {
     date: "2026-10-22",
     displayDate: "22 OCT",
-    city: "HEREDIA, CR",
-    venue: "CENTRO DE EVENTOS PEDREGAL",
-    status: "newBuy",
-    url: "https://www.eticket.cr/masinformacion.aspx?idevento=9492"
-  },
- {
-    date: "2026-10-25",
-    displayDate: "25 OCT",
     city: "CIUDAD DE GUATEMALA, GT",
     venue: "FORUM MAJADAS",
     status: "newBuy",
     url: "https://eventos.primerafila.shop/event/cultura-profetica-guatemala-2026-5x131x"
+  },
+  {
+    date: "2026-10-25",
+    displayDate: "25 OCT",
+    city: "HEREDIA, CR",
+    venue: "CENTRO DE EVENTOS PEDREGAL",
+    status: "newBuy",
+    url: "https://www.eticket.cr/masinformacion.aspx?idevento=9492"
   },
   {
     date: "2026-11-01",
