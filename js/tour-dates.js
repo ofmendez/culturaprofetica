@@ -83,6 +83,14 @@ export const tourDates = [
   {
     date: "2026-10-22",
     displayDate: "22 OCT",
+    city: "HEREDIA, CR",
+    venue: "CENTRO DE EVENTOS PEDREGAL",
+    status: "newBuy",
+    url: "https://www.eticket.cr/masinformacion.aspx?idevento=9492"
+  },
+ {
+    date: "2026-10-25",
+    displayDate: "25 OCT",
     city: "CIUDAD DE GUATEMALA, GT",
     venue: "FORUM MAJADAS",
     status: "newBuy",
