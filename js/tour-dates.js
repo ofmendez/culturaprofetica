@@ -40,6 +40,14 @@ export const tourDates = [
     status: "newBuy",
     url: "https://arema.mx/e/20401"
   },
+   {
+    date: "2026-09-25",
+    displayDate: "25 SEP",
+    city: "PUEBLA, MX",
+    venue: "AUDITORIO AREMA",
+    status: "newBuy",
+    url: "https://arema.mx/e/20479-cultura-profetica-tour-2026"
+  },
   {
     date: "2026-09-26",
     displayDate: "26 SEP",
@@ -89,11 +97,35 @@ export const tourDates = [
     url: "https://eventos.primerafila.shop/event/cultura-profetica-guatemala-2026-5x131x"
   },
   {
+    date: "2026-10-25",
+    displayDate: "25 OCT",
+    city: "SAN JOSÉ, CR",
+    venue: "CENTRO DE EVENTOS PEDREGAL",
+    status: "newBuy",
+    url: "https://www.eticket.cr/masinformacion.aspx?idevento=9492"
+  },
+  {
     date: "2026-11-01",
     displayDate: "01 NOV",
     city: "SAN SALVADOR, SV",
     venue: "BE SPORT / NUEVO CUSCATLÁN",
     status: "newBuy",
     url: "https://eventos.primerafila.shop/event/cultura-profetica-tour-2026-oqoole"
+  },
+  {
+    date: "2026-11-05",
+    displayDate: "05 NOV",
+    city: " QUITO, EC",
+    venue: "AGORA CASA DE LA CULTURA",
+    status: "newBuy",
+    url: "https://www.buenplan.com.ec/event/gondwana-y-cultura-profetica-2026"
+  },
+  {
+    date: "2026-11-07",
+    displayDate: "07 NOV",
+    city: "GUAYAQUIL, EC",
+    venue: "ARENA PARK",
+    status: "newBuy",
+    url: "https://www.buenplan.com.ec/event/wankabeats-2026"
   }
 ];
