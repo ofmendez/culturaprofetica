@@ -113,8 +113,8 @@ export const tourDates = [
     url: "https://eventos.primerafila.shop/event/cultura-profetica-tour-2026-oqoole"
   },
   {
-    date: "2026-11-05",
-    displayDate: "05 NOV",
+    date: "2026-11-06",
+    displayDate: "06 NOV",
     city: " QUITO, EC",
     venue: "AGORA CASA DE LA CULTURA",
     status: "newBuy",
