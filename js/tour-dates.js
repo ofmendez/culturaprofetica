@@ -97,12 +97,20 @@ export const tourDates = [
     url: "https://eventos.primerafila.shop/event/cultura-profetica-guatemala-2026-5x131x"
   },
   {
+    date: "2026-10-24",
+    displayDate: "24 OCT",
+    city: "CIUDAD DE PANAMÁ, PA",
+    venue: "AMADOR",
+    status: "newBuy",
+    url: "https://www.eticket.pa/eventos.aspx?idartista=1033"
+  },
+  {
     date: "2026-10-25",
     displayDate: "25 OCT",
     city: "SAN JOSÉ, CR",
     venue: "CENTRO DE EVENTOS PEDREGAL",
     status: "newBuy",
-    url: "https://www.eticket.cr/masinformacion.aspx?idevento=9492"
+    url: "https://www.eticket.cr/eventos.aspx?idartista=1341"
   },
   {
     date: "2026-11-01",
