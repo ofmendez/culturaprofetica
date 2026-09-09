@@ -136,4 +136,13 @@ export const tourDates = [
     status: "newBuy",
     url: "https://www.buenplan.com.ec/event/wankabeats-2026"
   }
+  ,
+  {
+    date: "2026-12-05",
+    displayDate: "05 DEC",
+    city: "CARACAS, VE",
+    venue: "UNIVERSIDAD SIMÓN BOLÍVAR",
+    status: "newBuy",
+    url: "https://cusica.com/pages/cusica-fest"
+  }
 ];
