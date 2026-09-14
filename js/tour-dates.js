@@ -13,7 +13,7 @@ export const tourDates = [
     displayDate: "12 SEP",
     city: "BOGOTÁ, COL",
     venue: "FESTIVAL CORDILLERA",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://www.ticketmaster.co/event/festival-cordillera-2026"
   },
   {
