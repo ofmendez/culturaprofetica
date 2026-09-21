@@ -21,7 +21,7 @@ export const tourDates = [
     displayDate: "18 SEP",
     city: "BUENOS AIRES, AR",
     venue: "MOVISTAR ARENA",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://www.movistararena.com.ar/show/a5937bd1-05fb-4936-a0ec-1b52529e2f2d"
   },
   {
@@ -29,7 +29,7 @@ export const tourDates = [
     displayDate: "19 SEP",
     city: "CÓRDOBA, AR",
     venue: "QUALITY ESPACIO",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://qualitycenter.com/shows/cultura-profetica/"
   },
   {
