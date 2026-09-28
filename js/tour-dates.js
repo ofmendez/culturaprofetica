@@ -37,7 +37,7 @@ export const tourDates = [
     displayDate: "24 SEP",
     city: "QUERÉTARO, MX",
     venue: "SALA ARPA",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://arema.mx/e/20401"
   },
    {
@@ -45,7 +45,7 @@ export const tourDates = [
     displayDate: "25 SEP",
     city: "PUEBLA, MX",
     venue: "AUDITORIO AREMA",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://arema.mx/e/20479-cultura-profetica-tour-2026"
   },
   {
@@ -53,7 +53,7 @@ export const tourDates = [
     displayDate: "26 SEP",
     city: "TIJUANA, MX",
     venue: "ESTADIO CALIENTE ",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://instatickets.mx/event/PHETRGSCGRZSMJ"
   },
   {
