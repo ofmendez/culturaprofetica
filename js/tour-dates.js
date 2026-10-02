@@ -61,7 +61,7 @@ export const tourDates = [
     displayDate: "01 OCT",
     city: "MONTERREY, MX",
     venue: "ESCENARIO GNP SEGUROS",
-    status: "newBuy",
+    status: "soldOut",
     url: "http://www.ticketmaster.com.mx/event/140064D4F52C8BE2"
   },
   {
