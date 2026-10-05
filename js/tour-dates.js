@@ -69,7 +69,7 @@ export const tourDates = [
     displayDate: "02 OCT",
     city: "C. DE MÉXICO, MX",
     venue: "PEPSI CENTER",
-    status: "newBuy",
+    status: "soldOut",
     url: "http://www.ticketmaster.com.mx/event/140064D3A3AE5E8E"
   },
   {
@@ -77,7 +77,7 @@ export const tourDates = [
     displayDate: "04 OCT",
     city: "GUADALAJARA, MX",
     venue: "AUDITORIO TELMEX",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://www.ticketmaster.com.mx/event/140064D3CE6AB05A"
   },
    {
