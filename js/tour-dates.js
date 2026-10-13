@@ -85,7 +85,7 @@ export const tourDates = [
     displayDate: "08 OCT",
     city: "LIMA, PE",
     venue: "MULTIESPACIO COSTA 21",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://teleticket.com.pe/cultura-profetica-lima-2026"
   },
   {
