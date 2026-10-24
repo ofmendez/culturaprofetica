@@ -93,7 +93,7 @@ export const tourDates = [
     displayDate: "22 OCT",
     city: "CIUDAD DE GUATEMALA, GT",
     venue: "FORUM MAJADAS",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://eventos.primerafila.shop/event/cultura-profetica-guatemala-2026-5x131x"
   },
   {
