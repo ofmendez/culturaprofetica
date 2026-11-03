@@ -101,7 +101,7 @@ export const tourDates = [
     displayDate: "24 OCT",
     city: "CIUDAD DE PANAMÁ, PA",
     venue: "AMADOR",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://www.eticket.pa/eventos.aspx?idartista=1033"
   },
   {
@@ -109,7 +109,7 @@ export const tourDates = [
     displayDate: "25 OCT",
     city: "SAN JOSÉ, CR",
     venue: "CENTRO DE EVENTOS PEDREGAL",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://www.eticket.cr/eventos.aspx?idartista=1341"
   },
   {
@@ -117,24 +117,16 @@ export const tourDates = [
     displayDate: "01 NOV",
     city: "SAN SALVADOR, SV",
     venue: "BE SPORT / NUEVO CUSCATLÁN",
-    status: "newBuy",
+    status: "soldOut",
     url: "https://eventos.primerafila.shop/event/cultura-profetica-tour-2026-oqoole"
   },
   {
     date: "2026-11-06",
     displayDate: "06 NOV",
     city: " QUITO, EC",
-    venue: "AGORA CASA DE LA CULTURA",
+    venue: "PLAZA DE TOROS",
     status: "newBuy",
     url: "https://www.buenplan.com.ec/event/gondwana-y-cultura-profetica-2026"
-  },
-  {
-    date: "2026-11-07",
-    displayDate: "07 NOV",
-    city: "GUAYAQUIL, EC",
-    venue: "ARENA PARK",
-    status: "newBuy",
-    url: "https://www.buenplan.com.ec/event/wankabeats-2026"
   }
   ,
   {

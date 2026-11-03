@@ -1,4 +1,4 @@
-import { tourDates } from "./tour-dates.js?v=1.0.17";
+import { tourDates } from "./tour-dates.js?v=1.0.18";
 
 const tourList = document.querySelector("#tourList");
 
